@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./css/output.css">
 </head>
 <body class="bg-black text-white">
-    <div class="container flex mx-auto my-4">
-        <div class="first w-[71%]">
-            <div class="logo invert my-4">
+    <div class="container flex mx-16 my-4">
+        <div class="first w-[100%]">
+            <div class="logo invert -ml-80 mb-5 my-4 cursor-pointer">
                 <svg viewBox="0 0 24 24" aria-hidden="true" class="m-auto w-10 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-18jsvk2 r-16y2uox r-8kz0gk">
                     <g>
                         <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
@@ -19,44 +19,44 @@
                     </g>
                 </svg>
             </div>
-            <div class="sidebar flex justify-end flex-col mx-10">
-                <ul class="flex flex-col px-11">
-                    <li class="flex justify-start items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer w-32 px-5 py-3"><span class="material-symbols-outlined text-3xl">
+            <div class="sidebar">
+                <ul class="space-y-4 w-[50%] flex align-middle flex-col">
+                    <li class="flex items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer"><span class="material-symbols-outlined text-3xl">
                         home
                         </span>Home</li>
-                    <li class="flex justify-start items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer w-36 px-5 py-3"><span class="material-symbols-outlined text-3xl">
+                    <li class="flex items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer"><span class="material-symbols-outlined text-3xl">
                         search
                         </span>Explore</li>
-                    <li class="flex justify-start items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer w-48 px-5 py-3"><span class="material-symbols-outlined text-3xl">
+                    <li class="flex items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer"><span class="material-symbols-outlined text-3xl">
                         notifications
                         </span>Notifications</li>
-                    <li class="flex justify-start items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer w-44 px-5 py-3"><span class="material-symbols-outlined text-3xl">
+                    <li class="flex items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer"><span class="material-symbols-outlined text-3xl">
                         mail
                         </span>Messages</li>
-                    <li class="flex justify-start items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer w-32 px-5 py-3"><span class="material-symbols-outlined text-3xl">
+                    <li class="flex items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer"><span class="material-symbols-outlined text-3xl">
                         list_alt
                         </span>Lists</li>
-                    <li class="flex justify-start items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer w-44 px-5 py-3"><span class="material-symbols-outlined text-3xl">
+                    <li class="flex items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer"><span class="material-symbols-outlined text-3xl">
                         workspace_premium
                         </span>Premium</li>
-                    <li class="flex justify-start items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer w-36 px-5 py-3"><span class="material-symbols-outlined text-3xl">
+                    <li class="flex items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer"><span class="material-symbols-outlined text-3xl">
                         person
                         </span>Profile</li>
-                    <li class="flex justify-start items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer w-32 px-5 py-3"><span class="material-symbols-outlined text-3xl">
+                    <li class="flex items-center gap-3 text-lg hover:bg-neutral-600 hover font-medium rounded-full cursor-pointer"><span class="material-symbols-outlined text-3xl">
                         more_horiz
                         </span>More</li>
                 </ul>
-                <div class="button">
-                    <button class="bg-blue-500 text-white rounded-full px-4 py-2 font-bold w-[65%] mx-12 my-2">Post</button>
+                <div class="button my-7">
+                    <button class="bg-blue-500 text-white w-52 p-1 rounded-full font-bold">Post</button>
                 </div>
             </div>
         </div>
         <div class="second w-full border-[1px] border-x-neutral-700 border-y-black">
-            <div class="top flex p-3 relative">
+            <div class="top flex pt-0 w-[100%] relative">
                 <div class="absolute w-12 h-1 bg-blue-500 bottom-0 left-[19%] rounded-full z-10"></div>
                 <div class="left w-1/2 flex justify-center font-bold hover hover:bg-[#16181c] cursor-pointer">For You</div>
                 <div class="right w-1/2 flex justify-center font-bold hover hover:bg-[#16181c] cursor-pointer">Following</div>
-                <div class="settings mx-3 cursor-pointer hover:rounded-xl hover:bg-[#16181c]">
+                <div class="settings mx-3 cursor-pointer">
                     <span class="material-symbols-outlined">
                         settings
                         </span>
@@ -106,29 +106,55 @@
             <div class="posts">
                 <div class="icecreampost">
                     <div class="flex">
-                    <img class="w-8 mx-5 my-32 border rounded-full border-white" src="https://cdn-icons-png.flaticon.com/512/3250/3250484.png">
+                    <img class="w-8 mx-5 my-32 border rounded-full border-white" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAxlBMVEX////+/Pz47e70+fzZ5/P5+ur///3UlpnNgoVcmcytyuTm8PcAcrunxeJnodDI2kbk7a2wJy+zMDcxg8Jams7b546/1Bnz99i/V1yrChgrf8HC1i7apqjy3N2tFSDD2ew7h8S20ujx9syjAADnw8XGoKmOt9sAbLi0zu60zlri7KXJdnrsz9G4QkiuHyimFCZnksFOkclbl8OcvlGrAA70ycV6rNb3+r63O0KtAADHssDS48nDZGl2qNPQ4vEAYbTP32PU4noNW3wXAAAA7klEQVR4AeSQA4IDQRBF/5g7tie27dz/UjsVnCKv3eXCL8GwIDiAp50QRHyQZBCKqunanwHCtPDBdhg6eNdrBo8GPwjCjzCKG1NeMXRXS3RD4WEFaZoKALIcUhFLgGKUVV2VioIWyVITyNsdZIUdd+teUit9o056g+FLGIwwLqLJdGbP5gtPN5b9paErqzXJyNSxZ/HMdqabbc/glrslp/T2ZEjgYDfMIvZ4Styk4qrE1c/B11KKSXiBzHF84l7dhOdEM/3EZKabojh2wABG73a/7a5AmAYND+pdNpY7IG4cVGg3at7o+dz/b+QkHwDQJBkAknh6TQAAAABJRU5ErkJggg==">
                 </div>
                 <div class="content mx-16 -my-40">
-                    <span class="font-bold text-white hover:underline cursor-pointer">Delicious ice cream</span> <span class="text-neutral-500">@subzero . 6h</span>
+                    <span class="font-bold text-white hover:underline cursor-pointer">Sub Zero</span> <span class="text-neutral-500">@subzero . 6h</span>
                     <div>ButterScotch</div>
                     <div class="img1 my-4">
                         <img class="w-64" src="https://i.pinimg.com/originals/03/3d/1a/033d1a6b60163f30a6a2a771bc8b210c.jpg">
                     </div>
                 </div>
             </div>
+            <div class="icons flex cursor-pointer mx-10 mb-0 gap-28 my-40 text-neutral-600">
+                <span class="material-symbols-outlined hover:rounded">
+                    chat_bubble
+                    </span>
+                <span class="material-symbols-outlined">
+                    repeat
+                    </span>
+                <span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                <span class="material-symbols-outlined">
+                    bar_chart
+                    </span>
+            </div>
+            <div class="arrongpost -mt-20">
+                <div class="flex">
+                <img class="w-8 mx-5 my-32 border rounded-full border-white" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAtFBMVEUAAACQOACIMACiPgD/XwD/WwBNEQDcTgD/VQD/UQBrHQBWHADjQwDDMQAQAAD/UAD/TQBYGQB6KwC4OwDjSQD/SQD/QwDsPAAvCADpQQCHJQDLPQD/QABaEQAVCAD/RgBBEAAiDQDVOwDyNgDUMACNIAB8IwArBACLFQB7CwAhAQBABAD/NwBkEwAnDABIAAWQMAB4GwC5MQCYIABmIwAaAADWQwCoLwDrTwAdDABNCwBAGwB9BgGKAAAA4klEQVR4Ab3BVWICMQBAwYezmiAJsqG4u9v9z1VvcflihlcIhbkpEo3FuSWRtGwuOa7ngyVkCtKJDCeySufIa1WAjCWsIscCbUzpDSAvy0pWOFat1Rv8aDZqLZ7X7nT50+tzLFB6MARG5QHgj3NCTvhVUtoYAFuWewCulAG/KspoD6AlVBsgK0SGP/HWFICiJUYAzqzJKR8Cy6pyhaObTIRlZaA559SirGdYlpCyRtnUlxwrlMsNLEsqNRspY6YcWym5JiKUckFqE+fENA9spNxCr7njilByw0376Ibbqj1e4AOLIBIxTKX1OwAAAABJRU5ErkJggg==">
+            </div>
+            <div class="content mx-16 -my-40">
+                <span class="font-bold text-white hover:underline cursor-pointer">Arrong</span> <span class="text-neutral-500">@arrong . 1h</span>
+                <div>Number one lifestyle retailer in Bangladesh and social enterprise of BRAC</div>
+                <div class="img1 my-4">
+                    <img class="w-64" src="data:image/png;base64,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">
+                </div>
+            </div>
         </div>
-        <div class="icons flex cursor-pointer mx-10 mb-0 gap-28 my-40 text-neutral-600">
+        </div>
+        <div class="icons flex cursor-pointer mx-10 mb-0 gap-28 my-52 text-neutral-600">
             <span class="material-symbols-outlined hover:rounded">
-                mode_comment
+                chat_bubble
                 </span>
             <span class="material-symbols-outlined">
-                sync
+                repeat
                 </span>
             <span class="material-symbols-outlined">
                 favorite
                 </span>
             <span class="material-symbols-outlined">
-                bar_chart_4_bars
+                bar_chart
                 </span>
         </div>
         </div>
